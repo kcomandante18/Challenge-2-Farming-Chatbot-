@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e3a9e6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.chatbox {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.chatbox .intro {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.chat-area {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  height: 200px;
+  overflow-y: auto;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.message {
+  margin: 8px 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+.user {
+  background: #d1ffd1;
+  align-self: flex-end;
+}
+
+.bot {
+  background: #f1f1f1;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input-area input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.input-area button {
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-area button:hover {
+  background: white;
+  color: #a24bb0;
+}
+
+/* Info section */
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.planting h3 a {
+  color: white;
+  text-decoration: underline;
+}
+
+.suggestion {
+  color: white;
+  font-size: 0.95rem;
+}
+
+.weather h3 {
+  color: white;
+}
+
+.forecast {
+  display: flex;
+  gap: 40px;
+  margin-top: 10px;
+}
+
+.day {
+  text-align: center;
+  color: white;
+}
+
+.day .icon {
+  font-size: 2rem;
+}
