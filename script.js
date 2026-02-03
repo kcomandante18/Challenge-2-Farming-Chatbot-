@@ -6,6 +6,7 @@ const todayWeather = document.getElementById("todayWeather");
 
 // --- Knowledge base for your plants ---
 const botKnowledge = {
+  
   "olive": {
     planting: "Olive trees prefer hot, dry climates and well-drained soil. Plant in full sun, spaced at least 6 meters apart.",
     pests: "Common pests include olive fruit fly and scale insects. Use pheromone traps or prune affected branches."
@@ -119,7 +120,6 @@ function showStaticCalendar() {
   plantingSuggestion.textContent = `📅 This month (${month}): ${staticCalendar[month]}`;
 }
 
-
 // --- Planting Calendar Suggestion Function ---
 // --- Weather + Planting Suggestion ---
 async function fetchWeather() {
@@ -146,7 +146,6 @@ async function fetchWeather() {
     showStaticCalendar(); // ✅ Always show something useful
   }
 }
-
 
 // --- Run on page load ---
 fetchWeather();
@@ -197,3 +196,4 @@ async function fetchWeather() {
 
 // --- Run when page loads ---
 fetchWeather();
+
