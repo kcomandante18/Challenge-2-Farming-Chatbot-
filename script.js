@@ -99,7 +99,7 @@ userInput.addEventListener("keypress", (e) => {
 });
 
 // --- Seasonal Planting Calendar (Fallback Data) ---
-// --- Seasonal Planting Calendar (Fallback Data) ---
+
 const staticCalendar = {
   January: "Good for carrots, chayote, tomatoes, and bottle gourd.",
   February: "Start eggplant, tomatoes, and corn. Also good for calamansi planting.",
@@ -194,6 +194,6 @@ async function fetchWeather() {
   }
 }
 
-// --- Run when page loads ---
 fetchWeather();
+
 
