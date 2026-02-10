@@ -99,7 +99,6 @@ userInput.addEventListener("keypress", (e) => {
 });
 
 // --- Seasonal Planting Calendar (Fallback Data) ---
-
 const staticCalendar = {
   January: "Good for carrots, chayote, tomatoes, and bottle gourd.",
   February: "Start eggplant, tomatoes, and corn. Also good for calamansi planting.",
@@ -146,7 +145,6 @@ async function fetchWeather() {
     showStaticCalendar(); // ✅ Always show something useful
   }
 }
-
 // --- Run on page load ---
 fetchWeather();
 
@@ -166,7 +164,6 @@ function getPlantingSuggestion(weather, temp) {
     return "Mixed conditions — check soil moisture and sunlight before planting.";
   }
 }
-
 // --- Fetch Weather for Surigao City ---
 async function fetchWeather() {
   const apiKey = "8da6026eebe0d60d4c42e38b2ef0e6ad"; // <-- Replace with your OpenWeatherMap key
