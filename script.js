@@ -3,6 +3,7 @@ const userInput = document.getElementById("userInput");
 const chatArea = document.getElementById("chatArea");
 const plantingSuggestion = document.getElementById("plantingSuggestion");
 const todayWeather = document.getElementById("todayWeather");
+
 // --- Knowledge base for your plants ---
 const botKnowledge = {
   
