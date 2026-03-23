@@ -92,6 +92,7 @@ sendBtn.addEventListener("click", () => {
     setTimeout(() => addMessage(reply, "bot"), 500);
     userInput.value = "";
   }
+  
 });
 
 userInput.addEventListener("keypress", (e) => {
