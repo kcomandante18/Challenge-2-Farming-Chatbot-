@@ -6,7 +6,6 @@ const todayWeather = document.getElementById("todayWeather");
 
 // --- Knowledge base for your plants ---
 const botKnowledge = {
-
   
   "olive": {
     planting: "Olive trees prefer hot, dry climates and well-drained soil. Plant in full sun, spaced at least 6 meters apart.",
