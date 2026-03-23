@@ -49,6 +49,7 @@ const botKnowledge = {
 },
 };
 
+
 // --- General fallback advice ---
 const generalPlantingAdvice = "Most plants need: well-drained soil, 6+ hrs of sunlight, regular watering, and spacing for airflow.";
 const generalPestAdvice = "General pest control: rotate crops, encourage ladybugs and lacewings, remove weeds, and spray neem oil if needed.";
